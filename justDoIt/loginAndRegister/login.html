@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <title>login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/pure-min.css">
+    <link rel="stylesheet" href="./css/grids-responsive-min.css">
+    <link rel="stylesheet" href="css/pignose.parallaxslider.min.css">
+    <link rel="stylesheet" href="./css/layout.css">
+
+  </head>
+  <body>
+
+    <div id='a' class="header">
+        <div class="home-menu pure-menu pure-menu-horizontal nav1 pure-menu-fixed">
+
+            <!-- 左侧文字 -->
+            <a class="pure-menu-heading" href="">天津理工大学———学生创新实践中心</a>
+            <!-- 右侧菜单 -->
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="../indexPage/index.html" class="pure-menu-link">主页</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Task</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">关于</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="log_main">
+      <div id="wrapper">
+      	<div id="visual">
+      		<div class="slide-visual">
+      			<!-- Slide Image Area (1000 x 424) -->
+      			<ul class="slide-group">
+      				<li><img src="img/visual_slide01.jpg" alt="slide image" /></li>
+      				<li><img src="img/visual_slide02.jpg" alt="slide image" /></li>
+      				<li><img src="img/visual_slide03.jpg" alt="slide image" /></li>
+      				<li><img src="img/visual_slide04.jpg" alt="slide image" /></li>
+      				<li><img src="img/visual_slide05.jpg" alt="slide image" /></li>
+      				<li><img src="img/visual_slide06.jpg" alt="slide image" /></li>
+      			</ul>
+      		</div>
+      	</div>
+      </div>
+    </div>
+
+    <div class="content hid_sho">
+        <div class="pure-g">
+            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+                <form class="pure-form pure-form-stacked">
+                    <fieldset>
+                        <label for="name">姓名</label>
+                        <input id="name" type="text" placeholder="确认为真实姓名">
+                        <label for="email">邮箱</label>
+                        <input id="email" type="email" placeholder="邮箱将作为登录账号">
+                        <label for="password">密码</label>
+                        <input id="password" type="password" placeholder="嘘，记得保存好...">
+                        <label for="password">确认密码</label>
+                        <input id="password" type="password" placeholder="与第一次输入一致">
+                        <button type="submit" class="pure-button">提交</button>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+                <h4>如果你还想了解更多关于115的事儿，一定要参加科协的面试哦！</h4>
+                <p>
+                    这里填写具体的时间和注意的事项......
+                </p>
+                <h4>如果你是小白，那就来科协吧！如果你想成为大佬，那就来115吧！</h4>
+                <p>
+                    这里写一些煽情得啊，勾引小学弟......哒！
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer l-box is-center">
+          <img class="footer_logo" src="./img/logo_1.jpg" alt="sipc_logo">
+    </div>
+
+
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.easing.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/pignose.parallaxslider.min.js"></script>
+<script type="text/javascript">
+	$(window).load(function() {
+		$('#visual').pignoseParallaxSlider({
+			play    : '.btn-play',
+			pause   : '.btn-pause',
+			next    : '.btn-next',
+			prev    : '.btn-prev'
+		});
+	});
+</script>
+  </body>
+</html>
